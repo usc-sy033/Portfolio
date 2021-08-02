@@ -1,0 +1,211 @@
+
+*{
+	margin:0 auto;
+	padding:0;
+	font-family: 'Montserrat';
+	border: 0px;
+	color: #1f1f1f;
+}
+body{
+	min-height: 1500px;
+
+}
+
+.main_holder{
+	margin:0 auto;
+	background-color: #609978;
+	height: 90vh;
+	position: relative;
+	color:#1f1f1f;
+	
+}
+.textwriter{
+	position:absolute;
+	z-index: 1;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	animation: typeit 6s steps(30);
+	white-space:nowrap;
+	overflow:hidden;
+	border-right:0.4vw solid #1f1f1f;
+	width:27ch;
+	font-size: 4vw;
+
+}
+
+@keyframes typeit{
+	0%{
+		width:0ch;		
+	}
+	100%{
+		width:27ch;
+}
+}
+
+picture{
+	overflow:hidden;
+}
+
+.heading_wrap{
+	flex-direction:column;
+	display:flex;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	align-items: center;
+	color:black;
+	background-color: #5b5c5b;
+}
+
+
+.aboutme{
+	
+	font-size: 2.5vw;
+	margin-bottom: 1.6vh;
+	width: 58%;
+	text-align:center;
+
+}
+
+.skills{
+	font-size: 2.3vw;
+	text-align: center;
+	padding-top:2vh;
+}
+
+.stacks{
+	display:flex;
+	width: 64%;
+
+	flex-wrap: wrap;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
+
+.stack{
+	text-align:center;
+	padding: 1vw;
+}
+.fab{
+	font-size:4em;
+	color:#71b38d;
+}
+.fas{
+	font-size:4em;
+	color:#71b38d;
+}
+
+
+.heading_content{
+	font-size: 2vw;
+	width: 60%;
+	text-align:center;
+}
+ul > li {
+	list-style-type: none;
+}
+
+.previous{
+	background-color: #5b5c5b;
+	padding-top: 3vh;
+}
+.previous_projects{
+	/*previous project*/
+	font-size: 2.3vw;
+	text-align: center;
+	color:white;
+	padding-bottom:0.5vh;
+}
+
+.items{
+	width: 64%;
+	display:flex;
+	justify-content:space-around;
+	flex-wrap: wrap;
+	gap:12px;
+	padding-top: 3vh;
+	padding-bottom: 4vh;
+
+	
+}
+.item{
+	
+	
+}
+
+.item .embed_img{
+	width: 250px; 
+	height: 250px;
+	
+}
+
+
+
+
+.form_title{
+	text-align:center;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	background-color: #71b38d;
+	color: white;
+	font-size:2.3vw;
+	
+}
+form{
+	display: flex;
+	flex-direction:column;
+	background-color: #71b38d;
+	padding-bottom: 2vh;
+
+}
+
+.form_contents{
+	margin-bottom: 1vh;
+	padding: 0.5vh;
+	
+
+}
+
+footer{
+	font-size: 1.1vw;
+	padding-top: 6vh;
+	padding-bottom: 6vh;
+	background-color: #5b5c5b;
+	text-align:center;
+	color: white;
+	
+}
+
+
+
+.foot_info_container{
+	width:72%;
+}
+.foot_info{
+	padding-left:2vw;
+	padding-right:2vw;
+	
+}
+
+
+/**
+.form_div{
+}
+.form{
+
+	margin: 10px;
+
+}
+.fieldset {
+	text-align:center;
+	width:500px;
+	margin:0 auto;
+
+}
+.from > fieldset > ul > li{
+
+}
+
+
+	
+
