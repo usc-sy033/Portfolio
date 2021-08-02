@@ -1,2 +1,2 @@
 # Portfolio
-simple portfolio website
+static portfolio website_ responsive design only with CSS flex container
